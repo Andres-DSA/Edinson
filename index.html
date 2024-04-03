@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./fonts/icomoon.css">
+    <link rel="stylesheet" href="./CSS/normalize.css">
+    <link rel="shortcut icon" href="./IMG/logopagina.png" type="image/x-icon">
+    <title>Edisonprise tecnologias s.a.s</title>
+</head>
+<body oncopy="return false" onpaste="return false">
+    <header>
+        <nav>
+            <div class="content-logo">
+                <p><a href="#"><img title="Edisonprise tecnologias s.a.s" class="logo" src="./IMG//logorobotbackground.png" alt=""></a></p>
+                <p class="title"><a href="#">Edisonprise tecnologias s.a.s</a></p>
+            </div>
+            <ul class="navegacion">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a class="separ">Acerca de mi</a></li>
+            </ul>
+            <div class="menus">
+                <li><label for="menu-toggle" class="menus"><i class='icon-android-menu'></i></label></li>
+            </div>
+        </nav>
+    </header>
+        <main class="main">
+            <h1 class="welcome">Bienvenido(a), En que te puedo ayudar?</h1>
+            <h2 class="subti">Elige una opción</h2>
+            <div class="content-classprinci">
+                <div class="hardware">
+                    <h2 class="title-hard">Hardware</h2>
+                    <p class="p1">Brindo soluciones físicas a equipos tecnologicos.</p>
+                    <button class="btn1">Ver más ></button>
+                </div>
+                <div class="software">
+                    <h2 class="title-hard">Software</h2>
+                    <p class="p1">Brindo soluciones virtuales a equipos tecnologicos.</p>
+                    <button class="btn2">Ver más ></button>
+                </div>
+                <div class="programa">
+                    <h2 class="title-hard">Programación</h2>
+                    <p class="p1">Brindo servicios de Programación y base de datos.</p>
+                    <button class="btn3">Ver más ></button>
+                </div>
+                <div class="redes">
+                    <h2 class="title-hard">Redes</h2>
+                    <p class="p1">Brindo servicios de redes e instalacion de redes.</p>
+                    <button class="btn4">Ver más ></button>
+                </div>
+            </div>
+        </main>
+        <div class="content-softwareinformation">
+            <div class="cont-elements1">
+                <div class="header">
+                    <h1>Hardware</h1>
+                    <i id="icon1" title="cerrar" class='icon-close'></i>
+                </div>
+                <div class="main-elements1">
+                    <div class="dispositivo">
+                        <p>Porfavor selecciona el dispositivo:</p>
+                        <select name="dispositivo" id="list_dispositivo">
+                            <option value="seleccionar" selected="true">Seleccionar</option>
+                            <option value="cpu">CPU</option>
+                            <option value="portatil">PORTATIL</option>
+                        </select>
+                    </div>
+                    <p>Por favor selecciona el problema que tengas:</p>
+                    <select name="problema" id="problema">
+                        <option value="seleccionar" selected="true">Seleccionar</option>
+                        <option value="no_arranca_cpu">NO ARRANCA EL COMPUTADOR</option>
+                        <option value="sin_imagen_monitor">NO ME MUESTRA IMAGEN EL MONITOR</option>
+                        <option value="limpieza_disco_duro">LIMPIEZA DE DISCO DURO</option>
+                        <option value="reparacion_disco_duro">REPARACIÓN DE DISCO DURO</option>
+                        <option value="reparacion_motherboard">REPARACIÓN MOTHERBOARD</option>
+                        <option value="otro">OTRO</option>
+                    </select>
+                    <input id="problem" type="text" placeholder="Indique su problema porfavor">
+                    <button class="btn11">Seguir</button>
+                </div>
+            </div>
+            <div class="cont-elements2">
+                <div class="header">
+                    <h1>Software</h1>
+                    <i id="icon2" title="cerrar" class='icon-close'></i>
+                </div>
+                <p>Porfavor Selecciona el problema que tengas:</p>
+                <select name="probelma2" id="problema2">
+                    <option value="seleccionar" selected="true">Seleccionar</option>
+                    <option value="cpu_lenta">TENGO LA CPU LENTA</option>
+                    <option value="congelamineto_cpu">SE CONGELA EL COMPUTADOR</option>
+                    <option value="activar_windows">ACTIVAR WINDOWS</option>
+                    <option value="formatear_cpu">FORMATEAR COMPUTADOR</option>
+                    <option value="virus">TENGO VIRUS</option>
+                    <option value="otro">OTRO</option>
+                </select>
+                <input id="problem2" type="text" placeholder="Indique su problema porfavor">
+                <button class="btn22">Seguir</button>
+            </div>
+            <div class="cont-elements3">
+                <div class="header">
+                    <h1>Programación</h1>
+                    <i id="icon3" title="cerrar" class='icon-close'></i>
+                </div>
+                <p>Porfavor Selecciona:</p>
+                <select name="probelma3" id="problema3">
+                    <option value="seleccionar" selected="true">Seleccionar</option>
+                    <option value="base_datos">AYUDA EN BASE DE DATOS</option>
+                    <option value="crear_pagina">CREAR UNA PAGINA WEB</option>
+                    <option value="otro">OTRO</option>
+                </select>
+                <input id="problem3" type="text" placeholder="Indique su problema porfavor">
+                <button class="btn33">Seguir</button>
+            </div>
+            <div class="cont-elements4">
+                <div class="header">
+                    <h1>Redes</h1>
+                    <i id="icon4" title="cerrar" class='icon-close'></i>
+                </div>
+                <p>Porfavor Selecciona:</p>
+                <select name="probelma4" id="problema4">
+                    <option value="seleccionar" selected="true">Seleccionar</option>
+                    <option value="cableado">INSTALACION DE CABLEADO ESTRUCTURADO</option>
+                    <option value="redes">MONITOREAR REDES</option>
+                    <option value="otro">OTRO</option>
+                </select>
+                <input id="problem4" type="text" placeholder="Indique su problema porfavor">
+                <button class="btn44">Seguir</button>
+            </div>
+        </div>
+        <div class="acerca">
+            <div class="cont-info">
+                <i id="icon5" class="icon-close"></i>
+                <div class="cont-foto">
+                    <img src="./IMG/edisonprice.jpeg" alt="">
+                    <div class="capa">
+                        <h1>Edison price</h1>
+                    </div>
+                </div>
+                <div class="cont-text">
+                    <h1>Informacion</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi esse commodi obcaecati error hic porro id dolor dolorem accusamus veritatis culpa saepe ipsum repellendus magnam corrupti, sed nihil adipisci iste?
+                    Ut, quis quasi id consectetur dolorum dolores esse itaque. Ullam iure dicta, minima maxime illum esse tempora nihil inventore mollitia quia, necessitatibus voluptates ab quo suscipit tenetur blanditiis quisquam odio!
+                    Omnis cupiditate repellendus veniam iusto. Ea quisquam dolorem asperiores omnis exercitationem reiciendis veniam enim libero harum laudantium, consectetur accusamus. Veritatis vero inventore nobis dolorum praesentium dolorem ducimus quo rerum ratione.
+                    Atque amet inventore optio similique, nostrum debitis beatae ut illo molestias modi cupiditate fugiat quas provident voluptate ipsam dicta dolores eum saepe harum nam molestiae, cum officia quibusdam maxime! Voluptatem!
+                    Alias dolor mollitia quibusdam amet nobis atque odio asperiores veniam voluptatibus tenetur inventore iusto aliquid recusandae id ullam repellendus, nesciunt voluptatem quia, quae consequuntur totam architecto commodi. Possimus, eveniet sunt.
+                    Eum molestiae dignissimos possimus tenetur nulla veritatis voluptates, obcaecati pariatur corrupti placeat quod tempora deserunt at laboriosam aperiam non! Libero sunt sed quam. Deleniti vitae quis unde, eos molestiae corrupti.
+                    Tempore amet ut eveniet nam nulla temporibus sequi officia ad harum id atque voluptas numquam aliquid ipsam cupiditate sint at, praesentium ullam consequuntur iste, veritatis magni? Unde eligendi beatae nostrum.
+                    Magnam at alias nam aut neque quis rerum sit asperiores. Ea porro cum aut iusto placeat sed ipsam quasi accusamus laboriosam reiciendis facere dolore, distinctio fugiat natus, repellendus officiis soluta.</p>
+                </div>
+            </div> 
+        </div>  
+        <footer>
+            <div class="content-footer">
+                <div class="footer-section">
+                    <h3>Redes sociales</h3>
+                    <ul class="social-media">
+                        <li></i><a href="#"><i class='icon-social-facebook'></i>faceboock</a></li>
+                        <li><a href="#"><i class='icon-social-twitter'></i>Twitter</a></li>
+                        <li><a href="#"><i class='icon-social-github'></i>GitHub</a></li>
+                    </ul>
+                </div>
+            <div class="copyright">
+                <p>&copy; 2024 Edisonprise tecnologias s.a.s. Todos los derechos reservados.</p>
+            </div>
+            </div>
+        </footer>
+<div class="loader">
+    <div class="loader-li"></div>
+</div>
+<input type="checkbox" id="menu-toggle" class="menu-toggle">
+<div class="menu">
+    <label for="menu-toggle"><i title="cerrar" id="iconcierre" class='X icon-close'></i></label>
+    <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><p class="separ2">Acerca de mi</p></li>
+    </ul>
+</div>
+<script src="./JS/app.js"></script>
+</body>
+</html>
