@@ -1,2 +1,2 @@
 # Edinson
-Edison price s.a.s
+Este es el redme de el repositorio de edinson
